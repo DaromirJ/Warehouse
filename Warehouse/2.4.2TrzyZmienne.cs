@@ -14,7 +14,9 @@ namespace Warehouse
             char b = 'S';
             char c = 'T';
 
-            Console.Write(c + b + a);
+            Console.WriteLine(c);
+            Console.WriteLine(b);
+            Console.WriteLine(a);
         }
 
     }
