@@ -18,8 +18,9 @@ namespace Warehouse
             int nrWork = 16859;            
 
             Console.WriteLine("Nr prasownika " + nrWork);
-            Console.WriteLine(firstName+ " " + lastName);
+            Console.WriteLine(firstName + " " + lastName);
             Console.WriteLine("wiek " + Age + ", płeć " + sex + ", PESEL: " + pesel);
+            Console.ReadLine();
         }
     }
 }
