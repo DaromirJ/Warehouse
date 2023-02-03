@@ -10,12 +10,12 @@ namespace Warehouse
     {
         static void Main(string[] args)
         {
-            string imie;
-            string nazwisko;
-            int wiek;
+            string firstName;
+            string lastName;
+            int Age;
             string sex;
             string pesel;
-            int nrPrac;            
+            int nrWork;            
         }
     }
 }
