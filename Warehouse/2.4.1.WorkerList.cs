@@ -10,12 +10,16 @@ namespace Warehouse
     {
         static void Main(string[] args)
         {
-            string firstName;
-            string lastName;
-            int Age;
-            string sex;
-            string pesel;
-            int nrWork;            
+            string firstName = "Dariusz";
+            string lastName = "Jóźwicki";
+            int Age = 64;
+            string sex = "mężczyzna";
+            string pesel = "59010122222";
+            int nrWork = 16859;            
+
+            Console.WriteLine("Nr prasownika " + nrWork);
+            Console.WriteLine(firstName+ " " + lastName);
+            Console.WriteLine("wiek " + Age + ", płeć " + sex + ", PESEL: " + pesel);
         }
     }
 }
