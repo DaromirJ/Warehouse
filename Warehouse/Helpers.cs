@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Warehouse
 {
-    internal class Helpers
+    public enum ItemType
     {
+        Grocery = 1,
+        Clothing,
+        Electronics
     }
 }
